@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\Beauty\Beauty1.png" />
+    <None Include="wwwroot\Images\Beauty\Beauty2.png" />
+    <None Include="wwwroot\Images\Beauty\Beauty3.png" />
+    <None Include="wwwroot\Images\Beauty\Beauty4.png" />
+    <None Include="wwwroot\Images\Beauty\Beauty5.png" />
+    <None Include="wwwroot\Images\Electronic\electronic4.png" />
+    <None Include="wwwroot\Images\Electronic\electronic5.png" />
+    <None Include="wwwroot\Images\Electronic\electronics1.png" />
+    <None Include="wwwroot\Images\Electronic\electronics2.png" />
+    <None Include="wwwroot\Images\Electronic\Electronics3.png" />
+    <None Include="wwwroot\Images\Electronic\technology6.png" />
+    <None Include="wwwroot\Images\Furniture\Furniture1.png" />
+    <None Include="wwwroot\Images\Furniture\Furniture2.png" />
+    <None Include="wwwroot\Images\Furniture\Furniture3.png" />
+    <None Include="wwwroot\Images\Furniture\Furniture4.png" />
+    <None Include="wwwroot\Images\Furniture\Furniture6.png" />
+    <None Include="wwwroot\Images\Furniture\Furniture7.png" />
+    <None Include="wwwroot\Images\Shoes\Shoes1.png" />
+    <None Include="wwwroot\Images\Shoes\Shoes2.png" />
+    <None Include="wwwroot\Images\Shoes\Shoes3.png" />
+    <None Include="wwwroot\Images\Shoes\shoes4.png" />
+    <None Include="wwwroot\Images\Shoes\Shoes5.png" />
+    <None Include="wwwroot\Images\Shoes\Shoes6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.19" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopOnline.Models\ShopOnline.Models.csproj" />
+  </ItemGroup>
+
+</Project>
