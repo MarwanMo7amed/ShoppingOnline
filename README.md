@@ -1,1 +1,1 @@
-# BlazorApp1
+# .Net Core & Blazor practice project
