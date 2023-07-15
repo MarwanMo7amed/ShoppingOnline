@@ -13,6 +13,21 @@ namespace ShopOnline.Web2.Services
             this.httpClient = httpClient;
         }
 
+        public async Task<ProductDto> GetItem(int id)
+        {
+            try
+            {
+                var product = await this.httpClient.GetFromJsonAsync<ProductDto>($"api/Product/{id}");
+                if (product == null) { 
+                    return default (ProductDto);
+                }
+                return product;
+            }
+            catch {
+                throw;
+            }
+        }
+
         public async Task<IEnumerable<ProductDto>> GetItems()
         {
             try
