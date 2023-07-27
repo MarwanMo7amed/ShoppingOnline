@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopOnline.Api", "ShopOnline.Api.csproj", "{7802164D-6FB2-4E3D-A3B6-253144F1B5B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopOnline.API", "ShopOnline.API.csproj", "{7802164D-6FB2-4E3D-A3B6-253144F1B5B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnline.Models", "..\ShopOnline.Models\ShopOnline.Models.csproj", "{3EB5C1AE-B115-4C30-8939-898A589594C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopOnline.Models", "..\ShopOnline.Models\ShopOnline.Models.csproj", "{3EB5C1AE-B115-4C30-8939-898A589594C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnline.Web2", "..\ShopOnline.Web2\ShopOnline.Web2.csproj", "{D61995D0-3B86-45C3-BE7A-97C7D3969130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopOnline.Web2", "..\ShopOnline.Web2\ShopOnline.Web2.csproj", "{D61995D0-3B86-45C3-BE7A-97C7D3969130}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3EB5C1AE-B115-4C30-8939-898A589594C4} = {3EB5C1AE-B115-4C30-8939-898A589594C4}
 	EndProjectSection

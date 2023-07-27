@@ -1,6 +1,6 @@
-﻿using WebApplication1.Entities;
+﻿using ShopOnline.API.Entities;
 using Microsoft.EntityFrameworkCore;
-namespace WebApplication1.Data
+namespace ShopOnline.API.Data
 {
     public class ShopOnlineDbContext:DbContext
     {

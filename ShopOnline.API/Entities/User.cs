@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Entities
+﻿namespace ShopOnline.API.Entities
 {
     public class User
     {

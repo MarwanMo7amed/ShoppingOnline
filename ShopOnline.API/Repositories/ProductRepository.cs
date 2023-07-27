@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Reposotories.Contracts;
-using WebApplication1.Data;
-using WebApplication1.Entities;
+using ShopOnline.API.Data;
+using ShopOnline.API.Entities;
 
 namespace ShopOnline.Api.Repositories
 {

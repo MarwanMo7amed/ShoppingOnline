@@ -1,4 +1,4 @@
-﻿using WebApplication1.Entities;
+﻿using ShopOnline.API.Entities;
 
 namespace ShopOnline.Api.Reposotories.Contracts
 {

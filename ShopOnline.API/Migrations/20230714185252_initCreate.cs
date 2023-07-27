@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace WebApplication1.Migrations
+namespace ShopOnline.API.Migrations
 {
     /// <inheritdoc />
     public partial class initCreate : Migration
